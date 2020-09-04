@@ -1,0 +1,103 @@
+.spotlight {
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas: 'column1' 'column2' 'column3' 'column4' 'column5' 'column6' 'column7';
+  margin-bottom: 30px;
+  @media only screen and (min-width: 768px) {
+    gap: 15px 15px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:'column1 column1 column1' 'column2 column3 column4' 'column5 column6 column7';
+  }
+  @media only screen and (min-width: 980px) {
+    grid-template-columns: minmax(auto, 3fr) repeat(2, minmax(133px, 1fr));
+    grid-template-areas: 'column1 column2 column3' 'column1 column4 column5' 'column1 column6 column7';
+  }
+  &--primary {
+    grid-area: column1;
+    &-abstract { display: block; }
+    &-img { max-width: 100%; }
+    &-headline { display: block; }
+    &-kicker { display: block; }
+  }
+  &--secondary {
+    display: grid;
+    gap: 0 20px;
+    grid-template-columns: 1fr 95px ;
+    grid-template-rows: repeat(2, [row] auto  );
+    @media only screen and (min-width: 768px) { display: block; }
+    &:nth-of-type(2) { grid-area: column2; }
+    &:nth-of-type(3) { grid-area: column3; }
+    &:nth-of-type(4) { grid-area: column4; }
+    &:nth-of-type(5) { grid-area: column5; }
+    &:nth-of-type(6) { grid-area: column6; }
+    &:nth-of-type(7) { grid-area: column7; }
+    &-link {
+      grid-column: 2 ;
+      grid-row: 1 / 3;
+      height: 95px;
+      overflow: hidden;
+      width: 95px;
+    }
+    &-img { max-width: 100%; }
+    &-headline {
+      display: block;
+      grid-column: 1 ;
+      grid-row: 2 ;
+    }
+    &-kicker {
+      display: block;
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
+}
+
+.lead {
+  font-family: Founders Grotesk Condensed Semibold,system-ui;
+  font-size: 1.75rem;
+  line-height: 1.14;
+  @media only screen and (min-width: 768px) { font-size: 2rem;}
+  @media only screen and (min-width: 1024px) { font-size: 2.25rem; }
+}
+.primary {
+  font-family: Founders Grotesk Condensed Semibold,system-ui;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  @media only screen and (min-width: 768px) { font-size: 1.5rem; }
+  @media only screen and (min-width: 1024px) { font-size: 1.88rem; }
+}
+.secondary {
+  font-family: Founders Grotesk Condensed Semibold,system-ui;
+  font-size: 1.13rem;
+  line-height: 1.22;
+  @media only screen and (min-width: 768px) { font-size: 1.38rem; }
+}
+.tertiary {
+  font-family: Founders Grotesk Condensed Semibold,system-ui;
+  font-size: 1.13rem;
+  line-height: 1.22;
+}
+.related {
+  font-family: Founders Grotesk Condensed Semibold,system-ui;
+  font-size: 1rem;
+  line-height: 1.19;
+  @media only screen and (min-width: 768px) { font-size: 1.13rem; }
+}
+.abstract {
+  font-family: Founders Grotesk Regular,system-ui;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #444;
+}
+.kicker {
+  color: #111;
+  font-family: Founders Grotesk Medium,system-ui;
+  font-size: 14px;
+  margin: 0 0 7px;
+  @media only screen and (max-width: 768px) { font-size: 16px; }
+  @media only screen and (max-width: 928px) { font-size: 14px; }
+}
+
