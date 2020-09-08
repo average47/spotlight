@@ -1,6 +1,5 @@
 .spotlight {
   display: grid;
-  gap: 20px 20px;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(7, auto);
   grid-template-areas: 'column1' 'column2' 'column3' 'column4' 'column5' 'column6' 'column7';
@@ -17,17 +16,41 @@
   }
   &--primary {
     grid-area: column1;
+    padding: 20px 0;
     &-abstract { display: block; }
-    &-img { max-width: 100%; }
-    &-headline { display: block; }
-    &-kicker { display: block; }
+    &-byline { margin-top: 7px; }
+    &-img {
+      max-width: 100%;
+      vertical-align: bottom
+    }
+    &-headline {
+      display: block;
+      margin-bottom: 30px;
+    }
+    &-label {
+      background-color: #ffbd00;
+      color: #111;
+      display: inline-block;
+      font-family:'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 15px;
+      margin-bottom: -7px;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+      top: -22px;
+    }
+    &-link {
+      display: block;
+      margin: 0 -20px;
+    }
   }
   &--secondary {
-    display: grid;
-    gap: 0 20px;
-    grid-template-columns: 1fr 95px ;
-    grid-template-rows: repeat(2, [row] auto  );
-    @media only screen and (min-width: 768px) { display: block; }
+    border-top: 1px solid #e7e7e7;
+    min-height: 95px;
+    padding: 20px 0;
+    position: relative;
     &:nth-of-type(2) { grid-area: column2; }
     &:nth-of-type(3) { grid-area: column3; }
     &:nth-of-type(4) { grid-area: column4; }
@@ -36,67 +59,89 @@
     &:nth-of-type(7) { grid-area: column7; }
     &-link {
       grid-column: 2 ;
-      grid-row: 1 / 3;
       height: 95px;
       overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: 20px;
       width: 95px;
     }
-    &-img { max-width: 100%; }
+    &-img {
+      max-width: 100%;
+      vertical-align: bottom
+    }
     &-headline {
       display: block;
-      grid-column: 1 ;
-      grid-row: 2 ;
+      padding-right: 115px;
     }
     &-kicker {
       display: block;
-      grid-column: 1;
-      grid-row: 1;
+      margin-bottom: 7px;
+      padding-right: 115px;
     }
   }
 }
 
 .lead {
-  font-family: Founders Grotesk Condensed Semibold,system-ui;
-  font-size: 1.75rem;
-  line-height: 1.14;
-  @media only screen and (min-width: 768px) { font-size: 2rem;}
-  @media only screen and (min-width: 1024px) { font-size: 2.25rem; }
+  color: #111;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.11;
+  @media only screen and (min-width: 768px) { font-size: 2.2rem;}
+  @media only screen and (min-width: 1024px) { font-size: 2.34rem; }
 }
 .primary {
-  font-family: Founders Grotesk Condensed Semibold,system-ui;
-  font-size: 1.25rem;
-  line-height: 1.2;
-  @media only screen and (min-width: 768px) { font-size: 1.5rem; }
-  @media only screen and (min-width: 1024px) { font-size: 1.88rem; }
+  color: #111;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 1.23rem;
+  font-weight: 700;
+  line-height: 1.16;
+  @media only screen and (min-width: 768px) { font-size: 1.53rem; }
+  @media only screen and (min-width: 1024px) { font-size: 1.9rem; }
 }
 .secondary {
-  font-family: Founders Grotesk Condensed Semibold,system-ui;
-  font-size: 1.13rem;
-  line-height: 1.22;
-  @media only screen and (min-width: 768px) { font-size: 1.38rem; }
+  color: #111;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.17;
+  @media only screen and (min-width: 768px) { font-size: 1.45rem; }
 }
 .tertiary {
-  font-family: Founders Grotesk Condensed Semibold,system-ui;
-  font-size: 1.13rem;
-  line-height: 1.22;
+  color: #111;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.17;
 }
 .related {
-  font-family: Founders Grotesk Condensed Semibold,system-ui;
+  color: #111;
+  font-family: 'Lora', serif;
+  text-decoration: none;
   font-size: 1rem;
+  font-weight: 700;
   line-height: 1.19;
   @media only screen and (min-width: 768px) { font-size: 1.13rem; }
 }
 .abstract {
-  font-family: Founders Grotesk Regular,system-ui;
+  color: #444;
+  font-family:'Source Sans Pro', sans-serif;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.25;
   color: #444;
 }
 .kicker {
   color: #111;
-  font-family: Founders Grotesk Medium,system-ui;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
-  margin: 0 0 7px;
+  font-weight: 700;
+  text-transform: uppercase;
   @media only screen and (max-width: 768px) { font-size: 16px; }
   @media only screen and (max-width: 928px) { font-size: 14px; }
 }
