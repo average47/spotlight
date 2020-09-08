@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paren",
+				"parentNode\tproperty"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ad",
+				"adList\tproperty"
+			],
+			[
+				"colum",
+				"columnB\twarning"
+			],
+			[
+				"da",
+				"data\tproperty"
+			],
+			[
+				"col",
+				"columnX\tproperty"
+			],
+			[
+				"elem",
+				"elements\tparameter"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"e",
+				"eedition\tconst"
+			],
+			[
+				"sub",
+				"subscription\tconst"
+			],
+			[
+				"cla",
+				"classList\tproperty"
+			],
+			[
+				"calss",
+				"classList\tproperty"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"ac",
+				"activeSession\tparameter"
+			],
+			[
+				"class",
+				"classList\twarning"
+			],
+			[
+				"in",
+				"interval"
+			],
+			[
+				"_pr",
+				"_prepareBatches"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"ca",
+				"callback"
+			],
+			[
+				"inter",
+				"interactive"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ay",
+				"ayu: Activate theme"
+			],
+			[
+				"insal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rmoore01/Sites/playground"
+	],
+	"file_history":
+	[
+		"/Users/rmoore01/develop/wcm_central/ux/sfgate/scss/core/themes/ornamental/components/_navigation.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/stamfordadvocate/scss/core/themes/ornamental/components/_navigation.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/modules/monitor.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/channel.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/article.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/channel/components/_innerGrid.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/collections/_dynamic-package-topic.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/channel/components/_coreFeatures.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/mysa/scss/config/_coreFeatures.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/sfgate/scss/config/_coreFeatures.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/modules/gallery.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/components/factBoxes.js",
+		"/etc/hosts",
+		"/Users/rmoore01/develop/wcm_central/start.sh",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/article/components/_semantics.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/mixins/_text.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/config/_semantics.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/timesunion/scss/config/_semantics.scss",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/collections/dynamic_ribbon_articles_body.tpl",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/design/collection/dynamic_ribbon_articles/single_zone.tpl",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/collections/dynamic_spotlight.tpl",
+		"/Users/rmoore01/Sites/playground/src/script.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/revenue/revenue.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/revenue/slideshowrevenue.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/workers/revenue.worker.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/revenue/channelrevenue.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/revenue/articlerevenue.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/revenue/revenuerefresh.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/slideshow.js",
+		"/Users/rmoore01/develop/wcm_central/ux/premiumctpost/templates/hearst/common/apsRewrites.tpl",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/common/siteBranding.tpl",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/components/_mostPopular.scss",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/article/types/dynamic_two_column.tpl",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/components/_pageHeader.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/modules/masthead.js",
+		"/Users/rmoore01/develop/wcm_central/src/business/modules/website/site/properties.php",
+		"/Users/rmoore01/develop/wcm_central/src/business/api/website/biz.site.php",
+		"/Users/rmoore01/develop/wcm_central/ux/beaumontenterprise/js/slideshow/index.js",
+		"/Users/rmoore01/Desktop/article.xml",
+		"/Users/rmoore01/develop/wcm_central/ux/chron/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/ctpost/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/greenwichtime/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/mysa/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/newstimes/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/nhregister/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/seattlepi/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/sfgate/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/stamfordadvocate/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/thehour/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/timesunion/js/slideshow/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/collections/_dynamic-subNavigation.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/timesunion/scss/channel/index.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/collections/_dynamic-breakingNow.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/collections/_density-centerpiece.scss",
+		"/Users/rmoore01/develop/wcm_central/package.json",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/utilities/_display.scss",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/components/breakingNow.js",
+		"/Users/rmoore01/develop/wcm_central/x/hearst/js/core/utilities/repeat.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/utilities/repeat.js",
+		"/Users/rmoore01/Sites/playground/index.html",
+		"/Users/rmoore01/Sites/playground/src/style.scss",
+		"/Users/rmoore01/.bash_profile",
+		"/Users/rmoore01/.bash_aliases",
+		"/Users/rmoore01/develop/wcm_central/ux/timesunion/scss/config/_logo.scss",
+		"/Users/rmoore01/Sites/playground/package.json",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/src/entrypoint.ts",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/utilities/towncrier.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/article/components/_gallery.scss",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/common/siteNavigation.tpl",
+		"/Users/rmoore01/develop/wcm_central/tsconfig.json",
+		"/Users/rmoore01/develop/wcm_central/.eslintrc",
+		"/Users/rmoore01/develop/wcm_central/.eslint",
+		"/Users/rmoore01/develop/wcm_central/.gitignore",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/src/js/article.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/src/js/channel.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/src/entrypoint.js",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/article/headerMain.tpl",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/src/js/index.js",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/src/js/slideshow.js",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/home/siteHeader.tpl",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/dist/entrypoint.js",
+		"/Users/rmoore01/develop/wcm_central/ux/timesunion/js/slideshow.main.js",
+		"/Users/rmoore01/Desktop/channel.xml",
+		"/Users/rmoore01/Library/Mobile Documents/com~apple~CloudDocs/website/src/app/shared/services/youtube.service.ts",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/article/content/list.tpl",
+		"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/workers/gallery.worker.js",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/article/content/picture.tpl",
+		"/Users/rmoore01/Desktop/slideshow.xml",
+		"/Users/rmoore01/develop/wcm_central/ux/timesunion/js/article/index.js",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/slideshow/dynamic_two_column.tpl",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/article/types/story_r2.tpl",
+		"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst/article/types/story_body_r2.tpl",
+		"/Users/rmoore01/develop/wcm_central/cat",
+		"/Users/rmoore01/.ssh/id_rsa.pub",
+		"/Users/rmoore01/.ssh/config",
+		"/Users/rmoore01/develop/wcm_ferd/git",
+		"/Users/rmoore01/develop/wcm_ferd/config",
+		"/Users/rmoore01/develop/wcm_ferd/etc/release",
+		"/Users/rmoore01/develop/wcm_ferd/package.json",
+		"/Users/rmoore01/VirtualBox VMs/develop/wcm_central/.gitignore",
+		"/Users/rmoore01/.zshrc",
+		"/Users/rmoore01/VirtualBox VMs/develop/wcm_central/src/business/modules/modalbox/search_preview.php",
+		"/Users/rmoore01/VirtualBox VMs/develop/wcm_central/src/business/templates/design/card/default.tpl",
+		"/Users/rmoore01/VirtualBox VMs/develop/wcm_central/src/business/templates/hearst/card/cardAsset.tpl",
+		"/Users/rmoore01/VirtualBox VMs/develop/wcm_central/src/business/templates/hearst/article/types/story_body_r2.tpl",
+		"/Users/rmoore01/VirtualBox VMs/develop/wcm_central/ux/hearst/js/core/modules/scrollstates.js",
+		"/Users/rmoore01/test.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+			"<current file>",
+			"/Users/rmoore01/develop/wcm_central/ux/hearst/scss",
+			"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core/",
+			"/Users/rmoore01/develop/wcm_central/src",
+			"/Users/rmoore01/develop/wcm_central/ux/hearst/scss/",
+			"/Users/rmoore01/develop/wcm_central/src/business/",
+			"/Users/rmoore01/develop/wcm_central/src/business/templates/hearst",
+			"<current file>",
+			"/Users/rmoore01/develop/wcm_central/ux/hearst/js/core",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shortTitle",
+			"dynamicSpotlight",
+			"48rem",
+			"20rem",
+			"ratio3x2_95",
+			"ratio3x2_190",
+			"separator",
+			"@extend .separator;",
+			".separator",
+			".collectionHeader",
+			"this._columnX",
+			"_processAds",
+			"_columnB",
+			"subscriptionTitle",
+			"subscriptionButton",
+			"hover",
+			"_setCurrent",
+			"start",
+			"subscriptionButton",
+			"subscriptionTitle",
+			"naviga",
+			"mkdir",
+			"cd ux/",
+			"/dist core && ",
+			"mkdir ",
+			"cmf/sites",
+			"entry",
+			"type",
+			"uid",
+			"_handleClick",
+			"mysa_ENG4790MYSA",
+			"chron_ENG4790CHRON",
+			"chron_ENG4789CHRON",
+			"sfgate_ENG4605062020",
+			"Repeat",
+			"interstitial",
+			"positions",
+			"selectPositions",
+			"HDNGalleryNavigate-",
+			"galleryNavigateEvent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"spotlight",
+			"768px",
+			"300px",
+			"ratio1x1_95",
+			"ratio1x1_190",
+			"cd",
+			"cd $d/ux/",
+			"/ dist && ",
+			"cd $d/",
+			"ux",
+			"mysa_ENG4789MYSA",
+			"mysa_ENG4790MYSA",
+			"chron_ENG4790CHRON",
+			"chron_ENG4789CHRON"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "playground.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
