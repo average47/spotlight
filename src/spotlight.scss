@@ -6,7 +6,7 @@
   margin-bottom: 30px;
   @media only screen and (min-width: 768px) {
     gap: 15px 15px;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas:'column1 column1 column1' 'column2 column3 column4' 'column5 column6 column7';
   }
@@ -17,6 +17,7 @@
   &--primary {
     grid-area: column1;
     padding: 20px 0;
+    @media only screen and (min-width: 768px) { padding: 0; }
     &-abstract { display: block; }
     &-byline { margin-top: 7px; }
     &-img {
@@ -44,6 +45,7 @@
     &-link {
       display: block;
       margin: 0 -20px;
+      @media only screen and (min-width: 980px) { margin: 0; }
     }
   }
   &--secondary {
@@ -51,6 +53,10 @@
     min-height: 95px;
     padding: 20px 0;
     position: relative;
+    @media only screen and (min-width: 768px) {
+      border-top: none;
+      padding: 0;
+    }
     &:nth-of-type(2) { grid-area: column2; }
     &:nth-of-type(3) { grid-area: column3; }
     &:nth-of-type(4) { grid-area: column4; }
@@ -58,6 +64,7 @@
     &:nth-of-type(6) { grid-area: column6; }
     &:nth-of-type(7) { grid-area: column7; }
     &-link {
+      display: block;
       grid-column: 2 ;
       height: 95px;
       overflow: hidden;
@@ -65,6 +72,12 @@
       right: 0;
       top: 20px;
       width: 95px;
+      @media only screen and (min-width: 768px) {
+        height: auto;
+        margin-bottom: 10px;
+        position: static;
+        width: auto;
+      }
     }
     &-img {
       max-width: 100%;
@@ -73,11 +86,13 @@
     &-headline {
       display: block;
       padding-right: 115px;
+      @media only screen and (min-width: 768px) { padding-right: 0; }
     }
     &-kicker {
       display: block;
       margin-bottom: 7px;
       padding-right: 115px;
+      @media only screen and (min-width: 768px) { padding-right: 0; }
     }
   }
 }
